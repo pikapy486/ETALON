@@ -16,8 +16,8 @@
     
     <nav class="nav" id="nav">
         <div class="nav__contacts" id="navContacts">
-            <a href="#regist"><i class="fas fa-sms"></i> Напишите нам</a>
-            <a href="./adress.html"><i class="fas fa-map-marker-alt"></i> Наш адрес</a>
+            <a id="nav__support-link" href="#regist"><i class="fas fa-sms"></i> Напишите нам</a>
+            <a id="nav__adress-link" href="./adress.html"><i class="fas fa-map-marker-alt"></i> Наш адрес</a>
         </div>
         <div class="nav__main">
             <a class="nav__logo" href=""><img src="./picture/logo.png" alt=""></a>
@@ -28,8 +28,7 @@
             </div>
         </div>
         <div class="nav__social" id="navSocial"> 
-            <a target="_blank" href="https://vk.com/kursy_etalon"><i class="fab fa-vk"></i></a>
-            <a target="_blank" href="https://www.instagram.com/kursy_etalon/"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://vk.com/kursy_etalon"><i class="fab fa-vk"></i></a>           
         </div>
         <button class="hamburger" id="hamburger">
             <span></span>
@@ -42,30 +41,30 @@
     <header>
         <h1>ЭТАЛОН</h1>
         <hr>
-        <p>Лучший центр саморазвития в Мончегорске</p>
+        <p>Первый центр саморазвития в Мончегорске</p>
         <a href="">Записаться</a>
     </header>
     <section class="regist" id="regist">
         <h2>Обратная связь</h2>
-        <form name="message" method="POST" target="submit-block" class="regist__form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeMoVDKhIbJfftXuOMR4iN5VKM_tXoufua0c3vJYZhshWTeng/formResponse">
+        <form name="message" method="POST" target="submit-block" class="regist__form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeOwAnl8ECPtpf7g8yvsl5mQC5rWqwA8BiY88os9q0UhhuFvA/formResponse">
              <div id="wrapper" class="submit-wrapper">
                 <img src="./picture/ok_ssjpg.png" alt="">
                 <p>Успешно отправлено!</p>
              </div>
             <img class="granat" src="./picture/granat.png" alt="">
              <iframe name="submit-block" id="submit-block" src="" frameborder="0"></iframe>
-            <h3>Написать руководителю</h3>                
+            <h3>Написать сообщение</h3>                
             <div class="input-box">
                 <span id="spanName">Введите имя</span>
-                <input name="entry.2020105583" id="inputName" type="text">
+                <input name="entry.292888808" id="inputName" type="text" required>
             </div>
             <div class="input-box">
                 <span id="spanEmail">Введите e-mail</span>
-                <input name="entry.1992231911" id="inputEmail" type="email"> 
+                <input name="entry.260355835" id="inputEmail" type="email" required> 
             </div>
             <div class="textarea-box">
                 <span id="spanTextarea">Сообщение</span>
-                <textarea name="entry.471056847" id="textarea" cols="30" rows="10"></textarea>
+                <textarea name="entry.498192852" id="textarea" cols="30" rows="10" required></textarea>
             </div> 
             <div class="check-box">
                 <input required id="checkbox" class="check-box__input" type="checkbox">
