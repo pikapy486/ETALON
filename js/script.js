@@ -1,3 +1,5 @@
+let navSupportLink = document.querySelector("#nav__support-link");
+let navAdressLink = document.querySelector("#nav__adress-link");
 let body = document.querySelector("body");
 let mainWraper = document.querySelector("#mainWraper");
 let navLinks = document.querySelector("#navLinks");
@@ -14,6 +16,20 @@ hamburger.onclick = function() {
    navSocial.classList.toggle("nav__social_active");
    body.classList.toggle("scroll_none");
 
+}
+navAdressLink.onclick = function() {
+   hamburger.classList.remove("hamburger_active");
+   navLinks.classList.remove("nav__links_active");
+   navContacts.classList.remove("nav__contacts_active");
+   navSocial.classList.remove("nav__social_active");
+   body.classList.remove("scroll_none");
+}
+navSupportLink.onclick = function() {
+   hamburger.classList.remove("hamburger_active");
+   navLinks.classList.remove("nav__links_active");
+   navContacts.classList.remove("nav__contacts_active");
+   navSocial.classList.remove("nav__social_active");
+   body.classList.remove("scroll_none");
 }
 supportLink.onclick = function() {
    hamburger.classList.remove("hamburger_active");
