@@ -1,3 +1,20 @@
+
+@media (max-width: 1150px) { /*каталог курсов */
+    .catalog__item {
+        flex-direction: column;
+    }
+    .catalog__item:nth-child(even) {
+        flex-direction: column;
+    }
+    .catalog__item img {
+        width: 100%;
+        min-height: 200px;
+    }
+    .catalog__info {
+        width: 100%;       
+    };
+}
+
 @media (max-width: 1500px) {
     .regist__form img {
         display: none;
@@ -167,6 +184,18 @@
         font-size: 28px;
     }
 
+}
+@media (max-width: 425px) {
+    .catalog__item {
+        padding: 20px 16px;
+    }
+    .catalog__info h2 {
+        font-size: 24px;
+        line-height: 140%;
+    }
+    .catalog__info p {
+        font-size: 16px;
+    }
 }
 @media (max-width: 375px) {
     .nav__links a {
